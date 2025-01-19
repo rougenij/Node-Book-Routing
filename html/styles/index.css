@@ -1,0 +1,42 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(217, 244, 244);
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.book-name {
+  background-color: gray;
+  height: 20%;
+  font-size: 2rem;
+  text-align: right;
+  align-content: end;
+}
+.book-subject {
+  height: 30%;
+  font-size: 3rem;
+  text-align: right;
+}
+.book-info {
+  background-color: yellow;
+  height: 50%;
+  font-size: 13rem;
+  align-content: flex-end;
+  text-align: right;
+}
+.book-author {
+  font-size: 2rem;
+  color: blue;
+}
+.footer {
+  text-align: center;
+  flex: 0;
+}
